@@ -1,0 +1,13 @@
+path_vars:
+  ddest_photo_day: ../timelapse/
+  ndest_photo_night: ../timelapse/
+  dest_location: ../timelapse/*
+  ineligible_files: ../ineligible_files/
+day_config:
+  dinterval: 5
+  dlight_low_limit: 240
+night_config:
+  ninterval: 5
+  nlight_low_limit: 650
+camera_parameters:
+  resolution: 2592, 1944
